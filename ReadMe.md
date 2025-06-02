@@ -14,8 +14,8 @@ via a reusable tool that can:
 7. ![image](https://github.com/user-attachments/assets/e307eba7-a34e-41df-9ca7-7bb56b064a82)
 
 
-goals:
--by 6/4: upload all scraped data to DB \n
--by 6/5: get embeddings going for deck, card, and archetype for my first batch
--by 6/6: have some back-endy analytics ready using RAG/embeddings
--by 6/7: begin work on a vercel frontend, re-eval here to see what pace I am at
+goals: \
+-by 6/4: upload all scraped data to DB \
+-by 6/5: get embeddings going for deck, card, and archetype for my first batch \
+-by 6/6: have some back-endy analytics ready using RAG/embeddings \
+-by 6/7: begin work on a vercel frontend, re-eval here to see what pace I am at \
