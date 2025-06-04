@@ -17,7 +17,7 @@ time.sleep(4)
 
 #clicking inside pairings
 matches_container = wait.until(EC.presence_of_element_located((By.ID, "pairings")))
-round1_button = matches_container.find_element(By.CSS_SELECTOR, 'button.round-selector[data-id="992459"]')
+round1_button = matches_container.find_element(By.CSS_SELECTOR, 'button.round-selector[data-id="992474"]')
 
 # Scroll and click
 driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", round1_button)
@@ -66,7 +66,17 @@ while True:
         result_text = cells[3].text.strip()
         match = re.search(r'\b\d+-\d+-\d+\b', result_text)
         record = match.group(0) if match else ""
-        results.append((player1, player2, winner, record))
+
+        if player1 == '𝕲𝖆𝖌𝖊 𝕬𝖑𝖇':
+            player1 = 'Gage Ulb'
+        if player2 == '𝕲𝖆𝖌𝖊 𝕬𝖑𝖇':
+            player2 = 'Gage Ulb'
+        if player1 == 'Kezia ⛏🐛':
+            player1 = 'Kezia'
+        if player2 == 'Kezia ⛏🐛':
+            player2 = 'Kezia'
+
+        results.append((player1, player2, winner, record, "Round 15"))
     
     print(f"Found {len(match_rows)} matches on page")
     
