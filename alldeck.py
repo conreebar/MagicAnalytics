@@ -81,7 +81,7 @@ all_decks = []
 
 # Scrape each deck
 
-for i, url in enumerate(deck_urls):
+for i, url in enumerate(deck_urls[681:682]):
     print(f"Scraping deck {i+1}/{len(deck_urls)}: {url}")
     deck_data, deck_info = scrape_deck(url)  # Ensure both values are unpacked
     all_decks.append({
@@ -93,9 +93,16 @@ for i, url in enumerate(deck_urls):
 
 
 # Write to file
-with open('all_decks.txt', 'w') as f:
+with open('all_decks_7.txt', 'w') as f:
     for deck in all_decks:
         f.write(f"DECK: {deck['url']}\n")
+
+        #check for bad user
+        if deck['info']['owner'] == '𝕬𝖑𝖇, 𝕲𝖆𝖌𝖊':
+            deck['info']['owner'] = 'Ulb, Gage'
+        if deck['info']['owner'] == '⛏🐛, Kezia':
+            deck['info']['owner'] = 'Kezia'
+        
         f.write(f"Player: {deck['info']['owner']}\n")
         f.write(f"Archetype:{deck['info']['archetype']}\n")
         f.write(f"Rank: {deck['info']['rank']} | Record: {deck['info']['record']} | Points: {deck['info']['points']}\n")
