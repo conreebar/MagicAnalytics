@@ -1,0 +1,32 @@
+DECK: https://www.melee.gg/Decklist/View/d06bccec-7a07-4a71-bac1-b2ec01881c8e
+Player: Coakley, Nick
+Archetype:Jeskai Prowess
+Rank: 682 | Record: 0-0-2 | Points: 0
+4 Dragon's Rage Channeler (Creature)
+4 Monastery Swiftspear (Creature)
+4 Slickshot Show-Off (Creature)
+4 Expressive Iteration (Sorcery)
+4 Preordain (Sorcery)
+4 Prismatic Ending (Sorcery)
+4 Lava Dart (Instant)
+4 Lightning Bolt (Instant)
+2 Unholy Heat (Instant)
+4 Cori-Steel Cutter (Artifact)
+4 Mishra's Bauble (Artifact)
+4 Bloodstained Mire (Land)
+4 Scalding Tarn (Land)
+3 Mountain (Land)
+3 Steam Vents (Land)
+2 Fiery Islet (Land)
+1 Sacred Foundry (Land)
+1 Thundering Falls (Land)
+4 Consign to Memory (Sideboard)
+3 Rough // Tumble (Sideboard)
+3 Tormod's Crypt (Sideboard)
+2 Spell Pierce (Sideboard)
+1 Emrakul, the Aeons Torn (Sideboard)
+1 Meltdown (Sideboard)
+1 Unholy Heat (Sideboard)
+
+---
+
