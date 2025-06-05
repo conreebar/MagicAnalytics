@@ -177,7 +177,7 @@ print(f"{archetype2} winrate vs {archetype1}: {archetype2_winrate:.2f}%")
 
     
 decks = redis_client.json().get("decks")
-card_name = "Phelia, Exuberant Shepherd"
+card_name = "Basking Broodscale" #Phelia, Exuberant Shepherd
 matching_archetypes = {
     deck["archetype"]
     for deck in decks
@@ -246,3 +246,28 @@ for opponent in opponent_archetypes:
     print(f"Esper Reanimator vs {opponent}: {winrate:.2f}% winrate")
 
 
+## get one archetype
+matches = redis_client.json().get("matches")
+decks = redis_client.json().get("decks")
+
+archetype = "Boros Energy" # Change this to see a different archetype winrate
+archetype_players = {deck["player_name"] for deck in decks if deck["archetype"] == archetype}
+archetype_stats = {"games": 0, "wins": 0}
+
+for match in matches:
+    if match["winner"] == 0:  # Ignore ties
+        continue
+
+    player1 = match["player_1"]
+    player2 = match["player_2"]
+    winner = match[f"player_{match['winner']}"]
+
+    if player1 in archetype_players or player2 in archetype_players:
+        archetype_stats["games"] += 1
+        if winner in archetype_players:
+            archetype_stats["wins"] += 1
+
+# Compute winrate
+winrate = (archetype_stats["wins"] / archetype_stats["games"] * 100) if archetype_stats["games"] > 0 else 0
+
+print(f"{archetype} winrate: {winrate:.2f}%")
