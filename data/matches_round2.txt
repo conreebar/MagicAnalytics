@@ -307,7 +307,7 @@
 ('JaajWiiw', 'Luke VanKleek', 2, '2-1-0', 'Round 2')
 ('Zoe Eades', 'George Taylor', 2, '2-1-0', 'Round 2')
 ('Owen Sull', 'KevinMagicNoob', 1, '2-0-0', 'Round 2')
-('Ramoñ Nogueira', 'Kaine Williams', 2, '2-0-0', 'Round 2')
+('Ramon Nogueira', 'Kaine Williams', 2, '2-0-0', 'Round 2')
 ('Omri Khaykovich', 'Konohakitsune', 1, '2-1-0', 'Round 2')
 ('Julianne Rice', 'Walkuriie', 1, '2-0-0', 'Round 2')
 ('Jonathan Johnson', 'Case Alexander', 2, '2-0-0', 'Round 2')

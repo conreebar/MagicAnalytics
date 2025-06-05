@@ -1,0 +1,68 @@
+DECK: https://www.melee.gg/Decklist/View/2d6b4aa3-5fec-4863-a2df-b2ed01785656
+Player: Johnjlees2
+Archetype:Boros Energy
+Rank: 448 | Record: 2-1-4 | Points: 7
+4 Ajani, Nacatl Pariah // Ajani, Nacatl Avenger (Creature)
+4 Guide of Souls (Creature)
+4 Ocelot Pride (Creature)
+4 Phlage, Titan of Fire's Fury (Creature)
+3 Ragavan, Nimble Pilferer (Creature)
+3 Seasoned Pyromancer (Creature)
+2 Voice of Victory (Creature)
+4 Galvanic Discharge (Instant)
+2 Thraben Charm (Instant)
+3 Goblin Bombardment (Enchantment)
+2 Fable of the Mirror-Breaker // Reflection of Kiki-Jiki (Enchantment)
+2 Static Prison (Enchantment)
+4 Arid Mesa (Land)
+4 Flooded Strand (Land)
+4 Marsh Flatts (Land)
+3 Arena of Glory (Land)
+3 Sacred Foundry (Land)
+2 Elegant Parlor (Land)
+2 Plains (Land)
+1 Mountain (Land)
+2 Deafening Silence (Sideboard)
+2 Molten Rain (Sideboard)
+2 Obsidian Charmaw (Sideboard)
+2 Orim's Chant (Sideboard)
+2 Wear // Tear (Sideboard)
+1 Ghost Vacuum (Sideboard)
+1 Showdown of the Skalds (Sideboard)
+1 Stony Silence (Sideboard)
+1 Surgical Extraction (Sideboard)
+1 Wrath of the Skies (Sideboard)
+
+---
+
+DECK: https://www.melee.gg/Decklist/View/ab2b4f37-fe7b-4898-93b6-b2ed0014deab
+Player: Hensold, Kevin
+Archetype:Goblins
+Rank: 449 | Record: 2-1-5 | Points: 7
+4 Battle Cry Goblin (Creature)
+4 Goblin Anarchomancer (Creature)
+4 Goblin Chieftain (Creature)
+4 Goblin Rabblemaster (Creature)
+4 Ignoble Hierarch (Creature)
+4 Rundvelt Hordemaster (Creature)
+3 Goblin Guide (Creature)
+3 Howlsquad Heavy (Creature)
+4 Goblin Grenade (Sorcery)
+3 Aether Vial (Artifact)
+3 Goblin Bombardment (Enchantment)
+4 Cavern of Souls (Land)
+4 Stomping Ground (Land)
+4 Wooded Foothills (Land)
+3 Arid Mesa (Land)
+3 Den of the Bugbear (Land)
+2 Mountain (Land)
+4 Blood Moon (Sideboard)
+3 Goblin Ringleader (Sideboard)
+2 Conspicuous Snoop (Sideboard)
+2 Magus of the Moon (Sideboard)
+2 Shatterstorm (Sideboard)
+1 Fade from History (Sideboard)
+1 Goblin Trashmaster (Sideboard)
+
+---
+
