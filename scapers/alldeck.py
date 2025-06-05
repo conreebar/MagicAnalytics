@@ -6,8 +6,6 @@ from selenium.webdriver.chrome.options import Options
 import time
 
 def scrape_deck(deck_url):
-    #options = Options()
-    #options.add_argument('--headless')  # Run in headless mode  options=options
     driver = webdriver.Chrome()
     driver.get(deck_url)
     
@@ -53,7 +51,7 @@ def scrape_deck(deck_url):
         title_element = category.find_element(By.CSS_SELECTOR, '.decklist-category-title')
         category_name = title_element.text.strip()
         
-        # Extract just the category type (remove the count in parentheses)
+        # Extract just the category type (remove the total category count in parentheses)
         if '(' in category_name:
             category_name = category_name.split('(')[0].strip()
         
@@ -87,9 +85,9 @@ for i, url in enumerate(deck_urls[681:682]):
     all_decks.append({
         'url': url,
         'cards': deck_data,
-        'info': deck_info  # Include `deck_info` in the dictionary
+        'info': deck_info
     })
-    #time.sleep(1)  # Be nice to the server
+    #time.sleep(1)  # Optional: sleep to not overload server
 
 
 # Write to file
@@ -98,6 +96,7 @@ with open('all_decks_7.txt', 'w') as f:
         f.write(f"DECK: {deck['url']}\n")
 
         #check for bad user
+        # TODO: fix this in a universal way and not a case by case
         if deck['info']['owner'] == '𝕬𝖑𝖇, 𝕲𝖆𝖌𝖊':
             deck['info']['owner'] = 'Ulb, Gage'
         if deck['info']['owner'] == '⛏🐛, Kezia':
@@ -110,4 +109,4 @@ with open('all_decks_7.txt', 'w') as f:
             f.write(f"{card['cardNumber']} {card['cardName']} ({card['cardType']})\n")
         f.write("\n---\n\n")
 
-print(f"Scraped 5 test decks and saved to all_decks.txt")
+print(f"Scraping complete")
