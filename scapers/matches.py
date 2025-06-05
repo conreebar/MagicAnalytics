@@ -7,15 +7,18 @@ from selenium.common.exceptions import TimeoutException, ElementClickIntercepted
 import time
 import re
 
+# Set tournament URL here:
 tournament_url = "https://www.melee.gg/Tournament/View/285048"
+
 driver = webdriver.Chrome()
 driver.get(tournament_url)
 wait = WebDriverWait(driver, 15)
 
-#While this sleeps, click the cookie button so that the code can click the site
+# While this sleeps, click the cookie button so that the code can click the site
+# TODO: automagically click this too
 time.sleep(4)
 
-#clicking inside pairings
+# Find the round button inside of the pairings container
 matches_container = wait.until(EC.presence_of_element_located((By.ID, "pairings")))
 round1_button = matches_container.find_element(By.CSS_SELECTOR, 'button.round-selector[data-id="992474"]')
 
@@ -29,12 +32,6 @@ time.sleep(3)
 
 # Now fetch the pairings container and parse rows
 results = []
-try:
-    print("Found pairings container")
-except Exception as e:
-    print(f"Error finding pairings container: {e}")
-    driver.quit()
-    exit()
 
 while True:
     print(f"Scraping next page...")
@@ -49,7 +46,7 @@ while True:
         # Get player names
         player_links = cells[1].find_elements(By.TAG_NAME, "a")
         if len(player_links) != 2:
-            continue  # skip unexpected structure
+            continue  # skip unexpected structure, such as ties
 
         player1 = player_links[0].text.strip()
         player2 = player_links[1].text.strip()
@@ -61,12 +58,14 @@ while True:
         elif player2.lower() in result_text:
             winner = 2
         else:
-            winner = 0  # draw or unknown
+            winner = 0  # draw
         #record
         result_text = cells[3].text.strip()
         match = re.search(r'\b\d+-\d+-\d+\b', result_text)
         record = match.group(0) if match else ""
-
+        
+        # Manually fix some problematic names with the specific dataset I used.
+        # TODO: create a more univeral fix
         if player1 == '𝕲𝖆𝖌𝖊 𝕬𝖑𝖇':
             player1 = 'Gage Ulb'
         if player2 == '𝕲𝖆𝖌𝖊 𝕬𝖑𝖇':
@@ -75,14 +74,14 @@ while True:
             player1 = 'Kezia'
         if player2 == 'Kezia ⛏🐛':
             player2 = 'Kezia'
-
+        # add the current record.  As of right now, you must manually change the round number every time.
         results.append((player1, player2, winner, record, "Round 16"))
     
     print(f"Found {len(match_rows)} matches on page")
     
     # Try to find and click next button that's not disabled
     try:
-        # Look for the next button only inside the "pairings" container
+        # Move to the 'pairings' container, click the next button if it is not disabled
         matches_container = wait.until(EC.presence_of_element_located((By.ID, "pairings")))
         next_button = matches_container.find_element(By.CSS_SELECTOR, 'a.paginate_button.next:not(.disabled)')
 
@@ -97,6 +96,7 @@ while True:
 print(len(results))
 
 # Print all results
+# This could print to a file too but whatever
 for r in results:
     print(r)
 
