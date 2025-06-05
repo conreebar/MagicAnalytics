@@ -686,7 +686,7 @@ Rank: N/A | Record: N/A | Points: N/A
 4 Solitude (Creature)
 4 Prismatic Ending (Sorcery)
 3 Wrath of the Skies (Sorcery)
-2 Lórien Revealed (Sorcery)
+2 Lï¿½rien Revealed (Sorcery)
 1 Day's Undoing (Sorcery)
 4 Counterspell (Instant)
 4 Orim's Chant (Instant)
@@ -1318,7 +1318,7 @@ Rank: N/A | Record: N/A | Points: N/A
 2 Snapcaster Mage (Creature)
 4 Wrath of the Skies (Sorcery)
 3 Stock Up (Sorcery)
-1 Lórien Revealed (Sorcery)
+1 Lï¿½rien Revealed (Sorcery)
 1 Prismatic Ending (Sorcery)
 4 Galvanic Discharge (Instant)
 3 Tune the Narrative (Instant)
@@ -1543,7 +1543,7 @@ Rank: N/A | Record: N/A | Points: N/A
 1 Subtlety (Creature)
 4 Wrath of the Skies (Sorcery)
 2 Day's Undoing (Sorcery)
-2 Lórien Revealed (Sorcery)
+2 Lï¿½rien Revealed (Sorcery)
 2 Stock Up (Sorcery)
 4 Counterspell (Instant)
 4 Orim's Chant (Instant)
@@ -2923,4 +2923,3 @@ Rank: 449 | Record: 2-1-5 | Points: 7
 
 ---
 
-DECK: https://www.melee.gg/Decklist/View/e0b3d85f-d741-429f-b3f4-b2ee002e4370

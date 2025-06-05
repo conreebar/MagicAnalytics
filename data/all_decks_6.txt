@@ -871,7 +871,7 @@ Rank: 652 | Record: 0-0-4 | Points: 0
 2 Tamiyo, Inquisitive Student // Tamiyo, Seasoned Scholar (Creature)
 3 Prismatic Ending (Sorcery)
 1 Bloodchief's Thirst (Sorcery)
-1 Lórien Revealed (Sorcery)
+1 Lorien Revealed (Sorcery)
 4 Consider (Instant)
 4 Counterspell (Instant)
 4 Fatal Push (Instant)
@@ -987,7 +987,7 @@ Rank: 655 | Record: 0-0-4 | Points: 0
 4 Thundertrap Trainer (Creature)
 3 Snapcaster Mage (Creature)
 3 Preordain (Sorcery)
-1 Lórien Revealed (Sorcery)
+1 Lorien Revealed (Sorcery)
 4 Flare of Denial (Instant)
 4 Lightning Bolt (Instant)
 3 Counterspell (Instant)
@@ -1946,7 +1946,7 @@ Rank: 680 | Record: 0-0-3 | Points: 0
 ---
 
 DECK: https://www.melee.gg/Decklist/View/63ae71b5-4170-4d47-8928-b2ec00b33026
-Player: Nogueira, Ramoñ
+Player: Nogueira, Ramon
 Archetype:Amulet Titan
 Rank: N/A | Record: N/A | Points: N/A
 4 Arboreal Grazer (Creature)

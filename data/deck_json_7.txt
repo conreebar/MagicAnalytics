@@ -1,0 +1,139 @@
+[
+    {
+        "deck_link": "https://www.melee.gg/Decklist/View/d06bccec-7a07-4a71-bac1-b2ec01881c8e",
+        "player_name": "Nick Coakley",
+        "archetype": "Jeskai Prowess",
+        "rank": "682",
+        "record": "0-0-2",
+        "points": "0",
+        "maindeck": [
+            {
+                "count": 4,
+                "name": "Dragon's Rage Channeler",
+                "type": "Creature"
+            },
+            {
+                "count": 4,
+                "name": "Monastery Swiftspear",
+                "type": "Creature"
+            },
+            {
+                "count": 4,
+                "name": "Slickshot Show-Off",
+                "type": "Creature"
+            },
+            {
+                "count": 4,
+                "name": "Expressive Iteration",
+                "type": "Sorcery"
+            },
+            {
+                "count": 4,
+                "name": "Preordain",
+                "type": "Sorcery"
+            },
+            {
+                "count": 4,
+                "name": "Prismatic Ending",
+                "type": "Sorcery"
+            },
+            {
+                "count": 4,
+                "name": "Lava Dart",
+                "type": "Instant"
+            },
+            {
+                "count": 4,
+                "name": "Lightning Bolt",
+                "type": "Instant"
+            },
+            {
+                "count": 2,
+                "name": "Unholy Heat",
+                "type": "Instant"
+            },
+            {
+                "count": 4,
+                "name": "Cori-Steel Cutter",
+                "type": "Artifact"
+            },
+            {
+                "count": 4,
+                "name": "Mishra's Bauble",
+                "type": "Artifact"
+            },
+            {
+                "count": 4,
+                "name": "Bloodstained Mire",
+                "type": "Land"
+            },
+            {
+                "count": 4,
+                "name": "Scalding Tarn",
+                "type": "Land"
+            },
+            {
+                "count": 3,
+                "name": "Mountain",
+                "type": "Land"
+            },
+            {
+                "count": 3,
+                "name": "Steam Vents",
+                "type": "Land"
+            },
+            {
+                "count": 2,
+                "name": "Fiery Islet",
+                "type": "Land"
+            },
+            {
+                "count": 1,
+                "name": "Sacred Foundry",
+                "type": "Land"
+            },
+            {
+                "count": 1,
+                "name": "Thundering Falls",
+                "type": "Land"
+            }
+        ],
+        "sideboard": [
+            {
+                "count": 4,
+                "name": "Consign to Memory",
+                "type": "Sideboard"
+            },
+            {
+                "count": 3,
+                "name": "Rough // Tumble",
+                "type": "Sideboard"
+            },
+            {
+                "count": 3,
+                "name": "Tormod's Crypt",
+                "type": "Sideboard"
+            },
+            {
+                "count": 2,
+                "name": "Spell Pierce",
+                "type": "Sideboard"
+            },
+            {
+                "count": 1,
+                "name": "Emrakul, the Aeons Torn",
+                "type": "Sideboard"
+            },
+            {
+                "count": 1,
+                "name": "Meltdown",
+                "type": "Sideboard"
+            },
+            {
+                "count": 1,
+                "name": "Unholy Heat",
+                "type": "Sideboard"
+            }
+        ]
+    }
+]

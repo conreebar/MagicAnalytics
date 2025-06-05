@@ -207,7 +207,7 @@
 ('Joshua Hougland', 'Devin Hutcheson', 2, '2-1-0', 'Round 1')
 ('Ryan Reynolds', 'Sylvie Sibila', 1, '2-0-0', 'Round 1')
 ('Casey Ryback', 'Michael Simonetti', 1, '2-1-0', 'Round 1')
-('Ramoñ Nogueira', 'WadB', 2, '2-0-0', 'Round 1')
+('Ramon Nogueira', 'WadB', 2, '2-0-0', 'Round 1')
 ('WesZephyr', 'Zoe Eades', 1, '2-1-0', 'Round 1')
 ('deanthonymdavis', 'Broden Large', 2, '2-0-0', 'Round 1')
 ('Tim Wilson', 'Ben A Miller', 2, '2-0-0', 'Round 1')
