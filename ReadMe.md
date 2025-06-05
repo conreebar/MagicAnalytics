@@ -19,3 +19,8 @@ goals: \
 -by 6/5: get embeddings going for deck, card, and archetype for my first batch \
 -by 6/6: have some back-endy analytics ready using RAG/embeddings \
 -by 6/7: begin work on a vercel frontend, re-eval here to see what pace I am at \
+
+
+Goals set 6/4 \
+- by end of day, have a presentable dataset with some preset prompts so I have something to show for class \
+- also have some kind of graphic for the data and also how the db works \
