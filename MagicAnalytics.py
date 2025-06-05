@@ -112,7 +112,7 @@ top_sideboard_winrate = winrate_data[top_sideboard_card]
 print(f"Most impactful sideboard card: {top_sideboard_card} ({top_sideboard_winrate:.2f}% winrate)")
 
 
-
+## checks for decks containing this card
 decks = redis_client.json().get("decks")
 card_name = "Change the Equation" #change this 
 matching_decks = [
