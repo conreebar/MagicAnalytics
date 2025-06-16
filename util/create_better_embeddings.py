@@ -2,7 +2,7 @@ import openai
 import json
 
 # Initialize OpenAI client
-openai_client = openai.OpenAI(api_key = "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")  # Create client
+openai_client = openai.OpenAI(api_key = "key")  # Create client
 
 def get_embedding(text, model="text-embedding-ada-002"):
     response = openai_client.embeddings.create(

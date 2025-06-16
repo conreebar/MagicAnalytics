@@ -6,7 +6,7 @@ import torch
 from collections import Counter
 
 # Initialize OpenAI client
-openai_client = openai.OpenAI(api_key = "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")
+openai_client = openai.OpenAI(api_key = "key")
 
 # Load stored deck embeddings with full data
 with open(f"MagicAnalytics\data\compiled_decks_full.json", "r") as file:
